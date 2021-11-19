@@ -36,14 +36,3 @@ const executor: ExprAlg<number> = {
 
 const r = someExpr(executor)
 const r2 = someExpr(printer)
-
-console.log(r)
-console.log(r2)
-
-// import { Telegraf } from "telegraf";
-
-// const tg = new Telegraf(process.env.TG_BOT_TOKEN!)
-
-// tg.start((ctx) => ctx.reply("Добро пожаловать!!!"))
-
-// tg.launch()
